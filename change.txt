@@ -1,0 +1,19 @@
+mettre tout dans a propos
+
+
+
+Bonjour
+Je suis Hugo JENOUVRIER et j'ai 20 ans, je suis actuellement Étudiant développeur. Je fait un BTS SIO option SLAM en deuxième année. Je suis passionné par l'informatique depuis 10 ans. J'ai toujours aimé créer et en apprendre sur le monde de l'informatique.
+
+fais
+mettre un lien sur SLAM (explication)
+
+mettre compétences avec c minuscule
+
+
+rajouter une catégorie mes projets
+
+virer les docs
+
+
+mettre flux rss avec js 

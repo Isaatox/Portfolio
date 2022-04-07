@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+
     <title>PortFolio</title>
 </head>
 <body>
@@ -25,31 +27,386 @@
                     
                     <div>
                         <a href="#" class="nav__name">Hugo JENOUVRIER</a>
-                        <span class="nav__profesion">Etudiant Developper</span>
+                        <span class="nav__profesion">Etudiant developpeur</span>
                     </div>
                 </div>
 
                 <div class="nav__menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#" class="nav__link active">Accueil</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">A propos</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Compétences</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Documentations</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                        <!-- <li class="nav__item"><a href="#Apropos" class="nav__link">A propos</a></li> -->
+                        <li class="nav__item"><a href="#compétences" class="nav__link">Compétences</a></li>
+                        <li class="nav__item"><a href="#Doc" class="nav__link">Mes Projets</a></li>
+                        <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
+                        <li class="nav__item"><a href="veille.html" class="nav__link">Veille Technologique</a></li>
                     </ul>
                 </div>
 
                 <div class="nav__social">
-                    <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
-                    <a href="#" class="nav__social-icon"><ion-icon name="mail-outline"></ion-icon></a>
-                    <a href="#" class="nav__social-icon"><ion-icon name="call-outline"></ion-icon></a>
+                    <a href="https://github.com/Isaatox" class="nav__social-icon" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="mailto:hugo.jenouvrier@gmail.com" class="nav__social-icon"><ion-icon name="mail-outline"></ion-icon></a>
+                    <a href="tel:+33782710159" class="nav__social-icon"><ion-icon name="call-outline"></ion-icon></a>
                 </div>
             </div>
         </nav>
     </header>
+<main>
+    <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">Hugo JENOUVRIER</h1>
+            <p class="text">
+              Bonjour, je m'apelle Hugo JENOUVRIER, je suis dtudiant developpeur
+              en deuxième année et j'ai 20 ans.
+              Je fait un BTS SIO option SLAM en deuxième année. Je suis passionné par l'informatique depuis 10 ans.
+              J'ai toujours aimé créer et en apprendre sur le monde de l'informatique.
+            </p>
+            <a href="#" class="btn">Télécharger CV</a>
+          </div>
 
-    <!-- ===== IONICONS ===== -->
+          <div class="column-2 image">
+                <img src="assets/img/prof.jpg" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+
+    <!-- <section class="about section" id="Apropos">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Qui suis je">A propos</h3>
+          </div>
+  
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Bonjour</h3>
+              <p class="text">
+                Je suis Hugo JENOUVRIER et j'ai 20 ans, je suis actuellement étudiant développeur.
+                Je fait un BTS SIO option SLAM en deuxième année. Je suis passionné par l'informatique depuis 10 ans.
+                J'ai toujours aimé créer et en apprendre sur le monde de l'informatique.
+              </p>
+            </div>
+  
+            <div class="column-2 image">
+              <img src="assets/img/prof.jpg" class="z-index" style="max-width: 400px;" alt="" />
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+    <section class="services section" id="compétences">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Mes Compétences">Compétences</h3>
+          <p class="text">
+            Voici mes compétences acquises au fil des années
+          </p>
+        </div>
+
+        <div class="cards">
+          <div class="card-wrap">
+            <img
+              src="assets/img/shapes/points3.png"
+              class="points points1 points-sq"
+              alt=""
+            />
+            <div class="card" data-card="">
+              <div class="card-content z-index">
+                <img src="assets/img/code-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">Programmation</h3>
+                <p class="text">
+                  Mes compétences en programmation.
+                </p>
+                <a href="programmation.html" class="btn small">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <img
+              src="assets/img/shapes/points3.png"
+              class="points points2 points-sq"
+              alt=""
+            />
+            <div class="card" data-card="">
+              <div class="card-content z-index">
+                <img src="assets/img/kisspng-computer.png" class="icon" alt="" />
+                <h3 class="title-sm">Réseau</h3>
+                <p class="text">
+                    Mes compétences en réseau.
+                </p>
+                <a href="reseau.html" class="btn small">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <img
+              src="assets/img/shapes/points3.png"
+              class="points points2 points-sq"
+              alt=""
+            />
+            <div class="card" data-card="">
+              <div class="card-content z-index">
+                <img src="assets/img/1200px-Pix_logo.svg.png" class="icon" alt="" />
+                <h3 class="title-sm">PIX</h3>
+                <p class="text">
+                  Ma certification PIX réalisée en 2020.
+                </p>
+                <a href="https://d7963b19-138d-45fd-9bda-944f1c185688.filesusr.com/ugd/c2e173_69cc5be93e2847ddab6257290599ad1c.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-wrap">
+            <img
+              src="assets/img/shapes/points3.png"
+              class="points points2 points-sq"
+              alt=""
+            />
+            <div class="card" data-card="">
+              <div class="card-content z-index">
+                <img src="assets/img/1200px-ANSSI_Logo.svg.png" class="icon" alt="" />
+                <h3 class="title-sm">Mooc de L'ANSSI</h3>
+                <p class="text">
+                  Mon attestation mooc de l'ANSSI.
+                </p>
+                <a href="https://d7963b19-138d-45fd-9bda-944f1c185688.filesusr.com/ugd/c2e173_7769e13840134580bc93cbfdefa3179a.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="blog section" id="Doc">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Mes Documentations">Documentations</h3>
+          <p class="text">
+            Vous trouverez mes documentations réalisé
+          </p>
+        </div>
+
+        <div class="blog-wrapper">
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/prog/twig.jpg" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">Twig</h3>
+                <p class="blog-text">
+                  Gestions des utilisateur avec Twig et Composer
+                </p>
+                <a href="/assets/pdf/Gestion des utilisateurs avec Composer et Twig.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/doc/images.png" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">Always Data</h3>
+                <p class="blog-text">
+                  Héberger son site sur Always Data
+                </p>
+                <a href="/assets/pdf/Héberger son site chez Alwaysdata.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/doc/Screenshot_1.jpg" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">Kleopatra</h3>
+                <p class="blog-text">
+                  Envoie de mail crypté avec Kleopatra
+                </p>
+                <a href="https://d7963b19-138d-45fd-9bda-944f1c185688.filesusr.com/ugd/c2e173_18585eab5ea0430ea2f8d1dd2c673f0d.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/doc/gpo-lecteur-reseau-e1517407265952.png" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">lecteur GPO</h3>
+                <p class="blog-text">
+                  Créer un lecteur gpo et le mapper sur un AD
+                </p>
+                <a href="https://d7963b19-138d-45fd-9bda-944f1c185688.filesusr.com/ugd/c2e173_56e75876c4b2497f8517b79589919174.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/doc/téléchargement.png" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">Active Directory</h3>
+                <p class="blog-text">
+                  Créer un raccourcis avec un AD
+                </p>
+                <a href="https://d7963b19-138d-45fd-9bda-944f1c185688.filesusr.com/ugd/c2e173_74578f144c0c4ddc8d4b28f7ff20eebc.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+            </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/doc/NextcloudHub.jpeg" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">Nextcloud</h3>
+                <p class="blog-text">
+                  Comment installer Nextcloud
+                </p>
+                <a href="./assets/pdf/NEXTCLOUD.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/doc/slide-cours-strategies-de-groupe-v1.png" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">Stratégies de groupe</h3>
+                <p class="blog-text">
+                  Les Stratégies de groupe
+                </p>
+                <a href="https://d7963b19-138d-45fd-9bda-944f1c185688.filesusr.com/ugd/c2e173_fc1484eba2d6491a9d05bfa106901df3.pdf" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="assets/img/doc/groupe-traval-workgroup-windows.jpg" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                </div>
+                <h3 class="title-sm">Workgroup</h3>
+                <p class="blog-text">
+                  Mettre en place un Workgroup
+                </p>
+                <a href="https://d7963b19-138d-45fd-9bda-944f1c185688.filesusr.com/ugd/c2e173_2aebf1e748c74039856cbaf966f1b2b7.pdf" class="btn small" target="_blank">Read more</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <h3 class="title">Get in touch</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              rerum odio incidunt doslorum officia dolorem eaque aprim?
+            </p>
+            <div class="information-wrap">
+
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+                <p class="info-text">hugo.jenouvrier@gmail.com</p>
+              </div>
+
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="info-text">07-82-71-01-59</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3 class="title">Me contacter</h3>
+            <div class="row">
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Prénom"
+              />
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Nom"
+              />
+            </div>
+
+            <div class="row">
+              <input type="text" class="contact-input" placeholder="Téléphone" />
+              <input type="email" class="contact-input" placeholder="Email" />
+            </div>
+
+            <div class="row">
+              <textarea
+                name="message"
+                class="contact-input textarea"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <a href="#" class="btn">Envoyer</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    
+    <div class="back-btn-wrap">
+      <a href="#" class="back-btn">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </a>
+    </div>
+  </main>
+
+  <!-- ===== IONICONS ===== -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
     <!--===== MAIN JS =====-->
