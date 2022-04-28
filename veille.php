@@ -171,80 +171,44 @@
       <ion-icon name="arrow-up-outline"></ion-icon>
     </a>
   </div>
+  <br>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="grid-4">
-        <div class="grid-4-col footer-about">
-          <h3 class="title-sm">About</h3>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            officiis quo officia quia?
-          </p>
-        </div>
-
-        <div class="grid-4-col footer-links">
-          <h3 class="title-sm">Links</h3>
-          <ul>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#testimonials">Testimonials</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="grid-4-col footer-links">
-          <h3 class="title-sm">Services</h3>
-          <ul>
-            <li>
-              <a href="#">Web Design</a>
-            </li>
-            <li>
-              <a href="#">Web Dev</a>
-            </li>
-            <li>
-              <a href="#">App Design</a>
-            </li>
-            <li>
-              <a href="#">Marketing</a>
-            </li>
-            <li>
-              <a href="#">UI Design</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="grid-4-col footer-newstletter">
-          <h3 class="title-sm">Subscribe</h3>
-          <p class="text">
-            Lorem ipsum dolor, sit amet ipsum dolor sit amet.
-          </p>
-          <div class="footer-input-wrap">
-            <input type="email" class="footer-input" placeholder="Email" />
-            <a href="#" class="input-arrow">
-              <i class="fas fa-angle-right"></i>
-            </a>
+  <!-- Info Légal -->
+  <div class="modal fade" id="QETA" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Page d'accueil Qeta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe id="inlineFrameExample" title="Inline Frame Example" width="1100" height="1000"
+              src="https://dry-depths-86203.herokuapp.com/">
+            </iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <a href="https://dry-depths-86203.herokuapp.com/" target="blank" class="btn btn-primary">Y allez</a>
           </div>
         </div>
       </div>
+    </div>
 
+  <footer class="footer">
+    <div class="container">
       <div class="bottom-footer">
         <div class="copyright">
           <p class="text">
-            Copyright&copy;2020 All rights reserved | Made by
-            <span>True Coder</span>
+            Copyright&copy;2022 Tous droits réservés | Template réalisé par 
+            <span><a href="https://www.youtube.com/watch?v=tEyHyu022AA" target="_blank" rel="noopener noreferrer">True Coder</a></span>
           </p>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li><a href="#" >Info légal</a></li>
+          </ul>
         </div>
 
         <div class="followme-wrap">

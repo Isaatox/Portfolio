@@ -1216,7 +1216,7 @@ header .circle {
 
 .footer {
   background-color: #222;
-  padding: 6rem 0;
+  padding: 1rem 0;
 }
 
 .footer .grid-4 {
@@ -1241,7 +1241,7 @@ header .circle {
   color: #888;
   font-size: 1.25rem;
   display: inline-block;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0rem;
   transition: 0.3s;
 }
 
@@ -1288,7 +1288,7 @@ header .circle {
 }
 
 .bottom-footer {
-  margin-top: 5.5rem;
+  /* margin-top: 5.5rem; */
   padding: 0 1.7rem;
   display: flex;
   align-items: center;
@@ -1302,7 +1302,7 @@ header .circle {
   text-align: center;
 }
 
-.copyright .text span {
+.copyright .text span a{
   color: var(--main-color);
   cursor: pointer;
 }
@@ -1755,7 +1755,7 @@ header .circle {
   }
 
   .footer {
-    padding: 4rem 0;
+    padding: 1rem 0;
   }
 
   .footer-links a {
