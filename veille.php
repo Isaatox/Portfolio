@@ -173,28 +173,6 @@
   </div>
   <br>
 
-  <!-- Info Légal -->
-  <div class="modal fade" id="QETA" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Page d'accueil Qeta</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <iframe id="inlineFrameExample" title="Inline Frame Example" width="1100" height="1000"
-              src="https://dry-depths-86203.herokuapp.com/">
-            </iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-            <a href="https://dry-depths-86203.herokuapp.com/" target="blank" class="btn btn-primary">Y allez</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
   <footer class="footer">
     <div class="container">
       <div class="bottom-footer">
