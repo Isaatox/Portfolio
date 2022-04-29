@@ -185,7 +185,7 @@
 
         <div class="footer-links">
           <ul>
-            <li><a href="#" >Info légal</a></li>
+          <li><a href="info_légal.html" target="_blank">Info légal</a></li>
           </ul>
         </div>
 
