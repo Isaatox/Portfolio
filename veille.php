@@ -89,11 +89,9 @@
           $datetime = date_create($item->pubDate);
           $date = date_format($datetime, 'd M Y, H\hi');
           $sort1 = date_format($datetime, 'd/m/Y');
-          $sort2 = '01/06/2021';
+          $sort2 = '01/01/2020';
           $i++;
-          if (strtotime($sort1) < strtotime($sort2)) {
-            
-          } else {
+          if (strtotime($sort1) > strtotime($sort2)) {
             echo '<div class="blog-wrap">
             <div class="blog-card">
               <div class="blog-image">
