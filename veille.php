@@ -88,29 +88,32 @@
         foreach ($rss->channel->item as $item) {
           $datetime = date_create($item->pubDate);
           $date = date_format($datetime, 'd M Y, H\hi');
+          $sort1 = date_format($datetime, 'd/m/Y');
+          $sort2 = '01/06/2021';
           $i++;
-          if ($date > 'd/m/2020') {
+          if (strtotime($sort1) < strtotime($sort2)) {
+            
+          } else {
             echo '<div class="blog-wrap">
-                  <div class="blog-card">
-                    <div class="blog-image">
-                      <img src="https://source.unsplash.com/random/420x' . $i . '/?php" alt="" />
-                    </div>
-    
-                    <div class="blog-content">
-                      <div class="blog-info">
-                        <h5 class="blog-date">' . $date . '</h5>
-                      </div>
-                      <h3 class="title-sm">' . $item->title . '</h3>
-                      <p class="blog-text">
-                      ' .
-            $desc = $item->description
-            . '</p>
-                      <a href="' . $item->link . '" class="btn small" target="_blank">Voir</a>
-                    </div>
-                  </div>
-                </div>';
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="https://source.unsplash.com/random/420x' . $i . '/?php" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                  <h5 class="blog-date">' . $date . '</h5>
+                </div>
+                <h3 class="title-sm">' . $item->title . '</h3>
+                <p class="blog-text">
+                ' .
+              $desc = $item->description
+              . '</p>
+                <a href="' . $item->link . '" class="btn small" target="_blank">Voir</a>
+              </div>
+            </div>
+          </div>';
           }
-          
         }
         ?>
       </div>
@@ -181,14 +184,14 @@
       <div class="bottom-footer">
         <div class="copyright">
           <p class="text">
-            Copyright&copy;2022 Tous droits réservés | Template réalisé par 
+            Copyright&copy;2022 Tous droits réservés | Template réalisé par
             <span><a href="https://www.youtube.com/watch?v=tEyHyu022AA" target="_blank" rel="noopener noreferrer">True Coder</a></span>
           </p>
         </div>
 
         <div class="footer-links">
           <ul>
-          <li><a href="info_légal.html" target="_blank">Info légal</a></li>
+            <li><a href="info_légal.html" target="_blank">Info légal</a></li>
           </ul>
         </div>
 
