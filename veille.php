@@ -89,7 +89,8 @@
           $datetime = date_create($item->pubDate);
           $date = date_format($datetime, 'd M Y, H\hi');
           $i++;
-          echo '<div class="blog-wrap">
+          if ($date > 'd/m/2020') {
+            echo '<div class="blog-wrap">
                   <div class="blog-card">
                     <div class="blog-image">
                       <img src="https://source.unsplash.com/random/420x' . $i . '/?php" alt="" />
@@ -108,6 +109,8 @@
                     </div>
                   </div>
                 </div>';
+          }
+          
         }
         ?>
       </div>
